@@ -38,3 +38,5 @@ public class Timer {
     }
   }
 }
+// Currently only prints the timer, need to change
+// to updating the shown Timer later
