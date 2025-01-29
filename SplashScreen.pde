@@ -3,8 +3,11 @@ class Splash {
   int startTime;
 
   Splash() {
-    img = loadImage("r.png"); // Fixed image path
     startTime = millis();
+  }
+
+  void Preload() {
+    this.img = loadImage("r.png"); // Fixed image path
   }
 
   void display() {
